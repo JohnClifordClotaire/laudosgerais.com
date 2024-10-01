@@ -1,0 +1,256 @@
+<html><head><base href="https://www.laudosgerais.com">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>CASAMI Consultoria de Engenharia Civil - Laudos Gerais</title>
+<style>
+    body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+        background-color: #f0f0f0;
+        color: #333;
+    }
+    header {
+        background-color: #0000FF;
+        color: white;
+        text-align: center;
+        padding: 1rem;
+    }
+    nav {
+        background-color: #0000CC;
+        padding: 0.5rem;
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+    }
+    nav ul {
+        list-style-type: none;
+        padding: 0;
+        margin: 0;
+        display: flex;
+        justify-content: center;
+    }
+    nav ul li {
+        margin: 0 1rem;
+    }
+    nav ul li a {
+        color: white;
+        text-decoration: none;
+        transition: color 0.3s ease;
+    }
+    nav ul li a:hover {
+        color: #FFD700;
+    }
+    main {
+        max-width: 1200px;
+        margin: 0 auto;
+        padding: 2rem;
+    }
+    .service-grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+        gap: 1rem;
+        margin-top: 2rem;
+    }
+    .service-item {
+        background-color: white;
+        padding: 1rem;
+        border-radius: 5px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        transition: transform 0.3s ease;
+    }
+    .service-item:hover {
+        transform: translateY(-5px);
+    }
+    footer {
+        background-color: #0000FF;
+        color: white;
+        text-align: center;
+        padding: 1rem;
+        margin-top: 2rem;
+    }
+    .logo {
+        max-width: 100px;
+        height: auto;
+        margin: 10px;
+    }
+    .cta-button {
+        display: inline-block;
+        background-color: #FFD700;
+        color: #0000CC;
+        padding: 10px 20px;
+        text-decoration: none;
+        border-radius: 5px;
+        font-weight: bold;
+        margin-top: 20px;
+        transition: background-color 0.3s ease;
+    }
+    .cta-button:hover {
+        background-color: #FFA500;
+    }
+    .hero {
+        background-color: #0000CC;
+        color: white;
+        text-align: center;
+        padding: 4rem 2rem;
+    }
+    .hero h2 {
+        font-size: 2.5rem;
+        margin-bottom: 1rem;
+    }
+    .hero p {
+        font-size: 1.2rem;
+        max-width: 800px;
+        margin: 0 auto 2rem;
+    }
+    form {
+        display: flex;
+        flex-direction: column;
+        max-width: 500px;
+        margin: 0 auto;
+    }
+    form input, form textarea {
+        margin-bottom: 1rem;
+        padding: 0.5rem;
+        border-radius: 4px;
+        border: 1px solid #ccc;
+    }
+    form button {
+        align-self: flex-start;
+    }
+</style>
+</head>
+<body>
+    <header>
+        <h1>CASAMI Consultoria de Engenharia Civil</h1>
+        <p>Diagnóstico, Avaliação e Perícia LTA.</p>
+        <p>Laudos Gerais - Seu parceiro em engenharia</p>
+    </header>
+    
+    <nav>
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#sobre">Sobre Nós</a></li>
+            <li><a href="#servicos">Serviços</a></li>
+            <li><a href="#contato">Contato</a></li>
+        </ul>
+    </nav>
+    
+    <main>
+        <section id="home" class="hero">
+            <h2>Bem-vindo à Laudos Gerais</h2>
+            <p>Excelência em engenharia civil com soluções personalizadas para suas necessidades técnicas e legais.</p>
+            <a href="#contato" class="cta-button">Solicite um Orçamento</a>
+        </section>
+        
+        <section id="sobre">
+            <h2>Sobre Nós</h2>
+            <h3>Visão</h3>
+            <p>Ser a referência nacional em laudos técnicos e consultoria de engenharia, reconhecida pela qualidade, inovação e confiabilidade de nossos serviços.</p>
+            <h3>Missão</h3>
+            <p>Fornecer laudos técnicos e serviços de consultoria em engenharia civil com excelência, contribuindo para a segurança, valorização e conformidade legal dos empreendimentos de nossos clientes.</p>
+            <h3>Valores</h3>
+            <ul>
+                <li>Precisão técnica</li>
+                <li>Integridade profissional</li>
+                <li>Inovação constante</li>
+                <li>Compromisso com o cliente</li>
+                <li>Responsabilidade social e ambiental</li>
+            </ul>
+        </section>
+        
+        <section id="servicos">
+            <h2>Nossos Serviços</h2>
+            <div class="service-grid">
+                <div class="service-item">
+                    <h3>Laudo Técnico de Avaliação de Imóveis & Terrenos</h3>
+                    <p>Análises detalhadas e imparciais para determinar o valor justo de mercado de propriedades, essenciais para transações imobiliárias e processos judiciais.</p>
+                </div>
+                <div class="service-item">
+                    <h3>Laudo de Entrega & Recebimento de Obras</h3>
+                    <p>Documentação criteriosa que garante a conformidade da obra com o projeto e especificações contratuais, protegendo tanto construtoras quanto proprietários.</p>
+                </div>
+                <div class="service-item">
+                    <h3>Laudo Técnico de Vistoria de Vizinhança</h3>
+                    <p>Avaliações preventivas que documentam as condições das propriedades adjacentes antes do início de obras, minimizando riscos de litígios futuros.</p>
+                </div>
+                <div class="service-item">
+                    <h3>Laudo Técnico de Inspeção Predial</h3>
+                    <p>Diagnóstico completo das condições de edificações, identificando necessidades de manutenção e garantindo a segurança dos ocupantes.</p>
+                </div>
+                <div class="service-item">
+                    <h3>Laudo Técnico de Estabilidade</h3>
+                    <p>Avaliações cruciais da integridade estrutural de edificações, fundamentais para a segurança e longevidade das construções.</p>
+                </div>
+                <div class="service-item">
+                    <h3>Perícias de Construção Civil</h3>
+                    <p>Investigações técnicas aprofundadas para elucidar questões complexas em disputas legais ou problemas construtivos.</p>
+                </div>
+                <div class="service-item">
+                    <h3>Laudo Técnico de Reforma</h3>
+                    <p>Planejamento detalhado e avaliação de viabilidade para projetos de reforma, assegurando intervenções seguras e eficientes.</p>
+                </div>
+                <div class="service-item">
+                    <h3>Regularização de Imóveis</h3>
+                    <p>Orientação especializada para adequar imóveis às normas legais, facilitando processos de compra, venda ou financiamento.</p>
+                </div>
+                <div class="service-item">
+                    <h3>Orçamento Paramétrico</h3>
+                    <p>Estimativas precisas de custos baseadas em dados históricos e parâmetros da indústria, essenciais para o planejamento financeiro de projetos.</p>
+                </div>
+                <div class="service-item">
+                    <h3>Construção Financiada</h3>
+                    <p>Assessoria técnica completa para viabilizar financiamentos imobiliários, incluindo toda a documentação necessária.</p>
+                </div>
+                <div class="service-item">
+                    <h3>Emissão de ART</h3>
+                    <p>Elaboração e registro de Anotações de Responsabilidade Técnica, garantindo a legalidade e o respaldo profissional de todos os serviços prestados.</p>
+                </div>
+                <div class="service-item">
+                    <h3>Reformas</h3>
+                    <p>Gerenciamento completo de projetos de reforma, desde o planejamento inicial até a execução final, assegurando qualidade e conformidade.</p>
+                </div>
+            </div>
+        </section>
+        
+        <section id="contato">
+            <h2>Entre em Contato</h2>
+            <p>Resp. Técnico: Eng. Civil John C. Clotaire</p>
+            <p>Nº de Registro CREA-SP: 5071070085</p>
+            <p>Telefone: <a href="tel:+5511986922758">(11) 98692-2758</a> / <a href="tel:+5511985578613">(11) 98557-8613</a></p>
+            <p>E-mail: <a href="mailto:casami2021@outlook.com">casami2021@outlook.com</a></p>
+            <p>Instagram: <a href="https://www.instagram.com/casami_consultoria" target="_blank">@casami_consultoria</a></p>
+            <p>Website: <a href="https://laudosgerais.com">www.laudosgerais.com</a></p>
+            <form action="https://formspree.io/f/your-form-id" method="POST">
+                <input type="text" name="name" placeholder="Seu Nome" required>
+                <input type="email" name="email" placeholder="Seu E-mail" required>
+                <textarea name="message" placeholder="Sua Mensagem" required></textarea>
+                <button type="submit" class="cta-button">Enviar Mensagem</button>
+            </form>
+        </section>
+    </main>
+    
+    <footer>
+        <p>&copy; 2024 Laudos Gerais - CASAMI Consultoria de Engenharia Civil. Todos os direitos reservados.</p>
+        <div>
+            <img src="/a/dfa9c864-3612-4159-b03f-87c93f6a689f" alt="Logo CREA-SP e CASAMI Consultoria" class="logo">
+        </div>
+    </footer>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            const navLinks = document.querySelectorAll('nav a');
+            navLinks.forEach(link => {
+                link.addEventListener('click', function(e) {
+                    e.preventDefault();
+                    const targetId = this.getAttribute('href').substring(1);
+                    const targetElement = document.getElementById(targetId);
+                    if (targetElement) {
+                        targetElement.scrollIntoView({behavior: 'smooth'});
+                    }
+                });
+            });
+        });
+    </script>
+</body>
+</html>
